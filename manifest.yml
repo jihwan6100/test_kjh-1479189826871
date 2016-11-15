@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: test_kjh
+  host: test-kjh
+  disk_quota: 1024M
+  services:
+  - Language Translation-bi
+  - Document Conversion-nt
